@@ -5,7 +5,7 @@ on:
     branches:
       - main
     tags:
-      - 'v*.*.*' # publica apenas tags de versão semântica
+      - 'v*.*.*'
 
 jobs:
   publish:
