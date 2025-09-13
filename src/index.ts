@@ -1,6 +1,6 @@
 // Exportar tudo que o usuário vai precisar
 export { default as AdService } from './lib/AdService';
-export { AdProvider, useAd } from './components/AdProvider';
+export { AdProvider, useAd } from './providers/AdProvider';
 export { default as AdSlot } from './components/AdSlot';
 export { useAdService } from './hooks/useAdService';
 export { BidderPresets } from './utils/bidders';
