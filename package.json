@@ -1,6 +1,6 @@
 {
   "name": "react-ads-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Complete digital ads service for React and Next.js with Prebid integration",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
