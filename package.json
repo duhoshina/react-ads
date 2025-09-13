@@ -12,7 +12,6 @@
   "scripts": {
     "build": "rollup -c",
     "build:watch": "rollup -c -w",
-    "prepublishOnly": "npm run build",
     "release": "npm version patch && npm publish --access public",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx",
