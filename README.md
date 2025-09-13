@@ -1,15 +1,11 @@
-# react-ads
+# react-ads-sdk
 
 [![NPM Version](https://img.shields.io/npm/v/@luishoshina/react-ads-service)](https://www.npmjs.com/package/@luishoshina/react-ads-service)
 [![License](https://img.shields.io/npm/l/@luishoshina/react-ads-service)](https://github.com/luishoshina/react-ads-service/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@luishoshina/react-ads-service)](https://bundlephobia.com/package/@luishoshina/react-ads-service)
 
----
-
-> 🚀 **Serviço de anúncios digitais para React e Next.js** com integração nativa ao Prebid.js e Google Ad Manager
-
-## ✨ Features
+## Funcionalidades
 
 - 🎯 **Plug-and-play** - Configure em menos de 5 minutos
 - ⚡ **Lazy Loading** automático com Intersection Observer
@@ -22,9 +18,9 @@
 ## 📦 Instalação
 
 ```bash
-npm install react-ads
+npm install react-ads-sdk
 # ou
-yarn add react-ads
+yarn add react-ads-sdk
 ```
 
 ## 🚀 Setup (2 passos)
@@ -33,7 +29,7 @@ yarn add react-ads
 
 **Next.js (`pages/_app.tsx`):**
 ```tsx
-import { AdProvider } from 'react-ads';
+import { AdProvider } from 'react-ads-sdk';
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -51,7 +47,7 @@ export default function MyApp({ Component, pageProps }) {
 
 **React (`src/App.tsx`):**
 ```tsx
-import { AdProvider } from 'react-ads';
+import { AdProvider } from 'react-ads-sdk';
 
 function App() {
   return (
@@ -71,7 +67,7 @@ function App() {
 ### 2. Adicione anúncios nos componentes
 
 ```tsx
-import { AdSlot } from '@react-ads';
+import { AdSlot } from 'react-ads-sdk';
 
 export default function HomePage() {
   const bannerSlot = {
@@ -92,7 +88,7 @@ export default function HomePage() {
 ## 💰 Com Prebid (máxima receita)
 
 ```tsx
-import { AdSlot, BidderPresets } from 'react-ads';
+import { AdSlot, BidderPresets } from 'react-ads-sdk';
 
 export default function HomePage() {
   const bannerSlot = {
@@ -153,7 +149,7 @@ const mobileBanner = {
 ## 🎯 Bidders Suportados
 
 ```tsx
-import { BidderPresets } from 'react-ads';
+import { BidderPresets } from 'react-ads-sdk';
 
 // Amazon A9
 BidderPresets.amazon({ slotID: 'banner-1' })
@@ -206,7 +202,7 @@ interface AdSlotProps {
 ### Controle Manual
 
 ```tsx
-import { useAd } from 'react-ads';
+import { useAd } from 'react-ads-sdk';
 
 function CustomComponent() {
   const { adService } = useAd();

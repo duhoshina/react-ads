@@ -99,7 +99,6 @@ class AdService {
         if (!this.isInitialized) {
             throw new Error('AdService não foi inicializado');
         }
-        // Definir slot no Google Tag Manager
         window.googletag.cmd.push(() => {
             const adSlot = window.googletag
                 .defineSlot(slot.path, slot.sizes, slot.id)
@@ -111,8 +110,8 @@ class AdService {
             }
             this.adSlots.set(slot.id, adSlot);
         });
-        // Configurar Prebid se houver bidders
-        if (bidders.length > 0) {
+        const hasBidders = bidders.length > 0;
+        if (hasBidders) {
             const adUnit = {
                 code: slot.id,
                 mediaTypes: {
@@ -217,7 +216,6 @@ class AdService {
             }
         });
     }
-    // Método para debugging
     getSlotInfo(slotId) {
         return {
             slot: this.adSlots.get(slotId),
@@ -238,7 +236,6 @@ const AdProvider = ({ config, children }) => {
         adService.initialize(config)
             .then(() => {
             setIsReady(true);
-            // Disponibilizar globalmente para os componentes
             window.adService = adService;
         })
             .catch(error => {
@@ -259,7 +256,6 @@ const AdSlot = ({ slot, bidders = [], lazyLoad = false, refreshInterval, classNa
     const adServiceRef = useRef();
     const refreshIntervalRef = useRef();
     useEffect(() => {
-        // Aguarda a instância do AdService estar disponível
         const checkAdService = () => {
             try {
                 const adService = window.adService;
