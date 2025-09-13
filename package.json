@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/duhoshina/react-ads-service"
+    "url": "https://github.com/duhoshina/react-ads-sdk"
   },
   "bugs": {
-    "url": "https://github.com/seuuser/react-ads-service/issues"
+    "url": "https://github.com/duhoshina/react-ads-sdk/issues"
   },
-  "homepage": "https://github.com/duhoshina/react-ads-service#readme",
+  "homepage": "https://github.com/duhoshina/react-ads-sdk#readme",
   "publishConfig": {
     "access": "public"
   },
