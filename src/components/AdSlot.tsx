@@ -26,7 +26,7 @@ const AdSlot: React.FC<AdSlotProps> = ({
   const refreshIntervalRef = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
-    // Aguarda a instância do AdService estar disponível
+
     const checkAdService = () => {
       try {
         const adService = (window as any).adService;

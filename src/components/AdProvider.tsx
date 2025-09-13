@@ -26,7 +26,7 @@ export const AdProvider: React.FC<AdProviderProps> = ({ config, children }) => {
     adService.initialize(config)
       .then(() => {
         setIsReady(true);
-        // Disponibilizar globalmente para os componentes
+        
         (window as any).adService = adService;
       })
       .catch(error => {
