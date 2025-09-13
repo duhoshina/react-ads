@@ -1,6 +1,6 @@
 # react-ads-sdk
 
-[![NPM Version](https://img.shields.io/npm/v/@luishoshina/react-ads-service)](https://www.npmjs.com/package/@luishoshina/react-ads-service)
+[![NPM Version](https://img.shields.io/npm/v/react-ads-sdk)](https://www.npmjs.com/package/react-ads-sdk)
 [![License](https://img.shields.io/npm/l/@luishoshina/react-ads-service)](https://github.com/luishoshina/react-ads-service/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@luishoshina/react-ads-service)](https://bundlephobia.com/package/@luishoshina/react-ads-service)
