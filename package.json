@@ -1,6 +1,6 @@
 {
   "name": "react-ads-sdk",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Complete digital ads service for React and Next.js with Prebid integration",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -12,7 +12,6 @@
   "scripts": {
     "build": "rollup -c",
     "build:watch": "rollup -c -w",
-    "prepublishOnly": "npm run build",
     "release": "npm version patch && npm publish --access public",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx",
@@ -32,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/duhoshina/react-ads-service"
+    "url": "https://github.com/duhoshina/react-ads-sdk"
   },
   "bugs": {
-    "url": "https://github.com/seuuser/react-ads-service/issues"
+    "url": "https://github.com/duhoshina/react-ads-sdk/issues"
   },
-  "homepage": "https://github.com/duhoshina/react-ads-service#readme",
+  "homepage": "https://github.com/duhoshina/react-ads-sdk#readme",
   "publishConfig": {
     "access": "public"
   },
