@@ -1,6 +1,6 @@
 {
   "name": "react-ads",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Complete digital ads service for React and Next.js with Prebid integration",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/duhoshina/react-ads-service#readme",
   "publishConfig": {
-     "access": "public"
+    "access": "public"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
