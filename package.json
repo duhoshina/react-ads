@@ -1,0 +1,60 @@
+{
+  "name": "@luishoshina/react-ads-service",
+  "version": "1.0.2",
+  "description": "Complete digital ads service for React and Next.js with Prebid integration",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "ads",
+    "advertising",
+    "prebid",
+    "google-ad-manager",
+    "gpt",
+    "typescript"
+  ],
+  "author": "Luis Eduardo Hoshina <duhoshina@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duhoshina/react-ads-service"
+  },
+  "bugs": {
+    "url": "https://github.com/seuuser/react-ads-service/issues"
+  },
+  "homepage": "https://github.com/duhoshina/react-ads-service#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^24.3.3",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "rollup": "^3.29.5",
+    "rollup-plugin-dts": "^5.3.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@luishoshina/react-ads-service": "^1.0.2"
+  }
+}

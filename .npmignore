@@ -1,0 +1,9 @@
+src/
+rollup.config.js
+tsconfig.json
+.eslintrc
+.prettierrc
+*.test.ts
+*.test.tsx
+__tests__/
+.github/
