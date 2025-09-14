@@ -1,9 +1,9 @@
 # react-ads-sdk
 
 [![NPM Version](https://img.shields.io/npm/v/react-ads-sdk)](https://www.npmjs.com/package/react-ads-sdk)
-[![License](https://img.shields.io/npm/l/@luishoshina/react-ads-service)](https://github.com/luishoshina/react-ads-service/blob/main/LICENSE)
+[![License](https://img.shields.io/npm/l/react-ads-sdk)](https://github.com/duhoshina/react-ads-sdk/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
-[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@luishoshina/react-ads-service)](https://bundlephobia.com/package/@luishoshina/react-ads-service)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/react-ads-sdk)](https://bundlephobia.com/package/react-ads-sdk)
 
 ## Funcionalidades
 
